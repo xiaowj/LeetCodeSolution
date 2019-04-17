@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.interview;
 
 /**
  * 从排序数组中删除重复项

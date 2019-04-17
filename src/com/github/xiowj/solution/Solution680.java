@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.solution;
 
 public class Solution680 {
     public boolean validPalindrome(String s) {

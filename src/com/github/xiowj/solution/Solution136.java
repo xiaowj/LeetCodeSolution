@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.solution;
 
 public class Solution136 {
     public int singleNumber(int[] nums) {

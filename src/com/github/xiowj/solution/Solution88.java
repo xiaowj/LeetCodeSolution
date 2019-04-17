@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.solution;
 
 import java.util.Arrays;
 

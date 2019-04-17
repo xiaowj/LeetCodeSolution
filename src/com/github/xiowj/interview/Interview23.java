@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.interview;
 
 import java.util.Arrays;
 

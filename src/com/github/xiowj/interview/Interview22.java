@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.interview;
 
 public class Interview22 {
     public int maxProfit(int[] prices) {

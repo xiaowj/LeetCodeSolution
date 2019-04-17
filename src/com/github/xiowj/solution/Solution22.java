@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.solution;
 
 /**
  * 买卖股票的最佳时机 II
