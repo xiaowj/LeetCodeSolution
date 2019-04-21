@@ -34,21 +34,17 @@ class Interview31 {
         }
         Arrays.stream(matrix).forEach { ints -> println(Arrays.toString(ints)) }
     }
+}
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val interview31 = Interview31()
-            interview31.rotate(arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6), intArrayOf(7, 8, 9)))
-            interview31.rotate(
-                arrayOf(
-                    intArrayOf(5, 1, 9, 11),
-                    intArrayOf(2, 4, 8, 10),
-                    intArrayOf(13, 3, 6, 7),
-                    intArrayOf(15, 14, 12, 16)
-                )
-            )
-        }
-    }
+fun main() {
+    val interview31 = Interview31()
+    interview31.rotate(arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6), intArrayOf(7, 8, 9)))
+    interview31.rotate(
+        arrayOf(
+            intArrayOf(5, 1, 9, 11),
+            intArrayOf(2, 4, 8, 10),
+            intArrayOf(13, 3, 6, 7),
+            intArrayOf(15, 14, 12, 16)
+        )
+    )
 }
