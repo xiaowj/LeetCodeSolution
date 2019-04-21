@@ -40,27 +40,23 @@ class Interview30 {
         }
         return true
     }
+}
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val interview30 = Interview30()
-            println(
-                interview30.isValidSudoku(
-                    arrayOf(
-                        charArrayOf('5', '3', '.', '.', '7', '.', '.', '.', '.'),
-                        charArrayOf('6', '.', '.', '1', '9', '5', '.', '.', '.'),
-                        charArrayOf('.', '9', '8', '.', '.', '.', '.', '6', '.'),
-                        charArrayOf('8', '.', '.', '.', '6', '.', '.', '.', '3'),
-                        charArrayOf('4', '.', '.', '8', '.', '3', '.', '.', '1'),
-                        charArrayOf('7', '.', '.', '.', '2', '.', '.', '.', '6'),
-                        charArrayOf('.', '6', '.', '.', '.', '.', '2', '8', '.'),
-                        charArrayOf('.', '.', '.', '4', '1', '9', '.', '.', '5'),
-                        charArrayOf('.', '.', '.', '.', '8', '.', '.', '7', '9')
-                    )
-                )
+fun main() {
+    val interview30 = Interview30()
+    println(
+        interview30.isValidSudoku(
+            arrayOf(
+                charArrayOf('5', '3', '.', '.', '7', '.', '.', '.', '.'),
+                charArrayOf('6', '.', '.', '1', '9', '5', '.', '.', '.'),
+                charArrayOf('.', '9', '8', '.', '.', '.', '.', '6', '.'),
+                charArrayOf('8', '.', '.', '.', '6', '.', '.', '.', '3'),
+                charArrayOf('4', '.', '.', '8', '.', '3', '.', '.', '1'),
+                charArrayOf('7', '.', '.', '.', '2', '.', '.', '.', '6'),
+                charArrayOf('.', '6', '.', '.', '.', '.', '2', '8', '.'),
+                charArrayOf('.', '.', '.', '4', '1', '9', '.', '.', '5'),
+                charArrayOf('.', '.', '.', '.', '8', '.', '.', '7', '9')
             )
-        }
-    }
+        )
+    )
 }
