@@ -1,4 +1,4 @@
-package com.github.xiowj;
+package com.github.xiowj.solution;
 
 public class Solution941 {
     public boolean validMountainArray(int[] A) {
